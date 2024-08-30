@@ -1,6 +1,6 @@
 ---
 title: "Scripting"
-date: 2024-08-30
+date: 2024-03-19
 ---
 First, we wrote more scripts, then we deployed several containers, and figured out how to create local and remote repositories.
 
