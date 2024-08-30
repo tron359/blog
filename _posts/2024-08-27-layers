@@ -1,0 +1,20 @@
+---
+title: L3 v L2 MTU
+date: 2024-08-27
+---
+During my review for the CCNA, the topic of MTU differing between L3 and L2 was rather confusing - probably because I kept reviewing them separately and not in context.
+
+I can now report understanding why it is thus, being akin to a series of boxes that must not be larger than the box they lie within.
+
+To insert more detail: L1 streams the entirety of the frame/data up to the maximum transmission unit, and thus sets the true maximum ceiling.
+
+All layers higher up the chain -must- necessarily strip away a shell (header/footer) to gain access to their desired information, necessarily reducing the total size of the message.
+
+L3, by default, will not route packets larger than 1500 bytes.
+L2, by default, will forward packets up to 1514 bytes (53 bytes if using Asynchronous Transfer Mode)
+
+Both layers are happy to break up data batches into smaller individual parts with singular sizes below the MTU - to be reassembled at the destination.
+
+The packet/frame can refuse fragmentation if the DF bit is flipped to 1, which will cause the routing/switching device to drop the frame/packet and report an icmp Type 3 (Dest unreachable) Code 4 (needed frag, but DF=1) error to sender.
+
+If we just allow larger packet and frame sizes from the get-go, we can run into issues with lengthy processing times in our routing devices, since they're generally optimized around the industry standard 1500.
