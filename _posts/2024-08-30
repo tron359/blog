@@ -1,0 +1,11 @@
+---
+title: Jekyll Troubles
+---
+Actually getting a desirable format, WITHOUT prior web dev experience, has been a bothersome time. 
+
+Issue 1: The title kept duplicating in the Header, over the Posts, and at the bottom of the page.
+Issue 2: Scattered documentation - with exact questions difficult to pin down beyond basic descriptions and formatting rules.
+
+This is largely my fault for trying to do all of this on my own, and in one day, and using an automated tool that wants to do a good job but doesn't know how wihtout instructions, but STILL.
+
+I ended up just removing the offending title entry.
