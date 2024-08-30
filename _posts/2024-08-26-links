@@ -1,0 +1,23 @@
+---
+title: Some InfoSec Links
+date: 2024-08-26
+---
+On the road of personal development, this will serve as a compilation of links:
+
+https://github.com/bugcrowd/bugcrowd_university
+Full set of labs, slides, files, documentation, and guidance for locating bugs in a broad array of applications. Focuses on building the skillset, not a specific tool.
+
+https://seedsecuritylabs.org/Labs_20.04/
+Heavy (and lengthy) set of labs explicitly focused on evaluating, understanding, breaking, and investigating methods of attack.
+
+https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material/technical-operational#building
+Lengthy URL, international-focused set of in-depth labs, processes, and guidance manuals covering IT forensics and threat handling.
+
+TryHackMe | Hacktivities
+A common classic, lots of lovely sorted and themed lab sets for pen and defensive skills
+
+https://overthewire.org/wargames/
+A lovely series of linux-focused security concepts, played through the browser, utilizing a capture the flag style. Does not hold the user's hand, but provides clear instructions. Expect to perform a lot of command searching
+
+https://underthewire.tech/wargames
+Powershell variant of OverTheWire.
