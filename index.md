@@ -1,3 +1,3 @@
 ---
-title: MITRE, Cyber Attack, Response, Oh My
+title: A series of developmental incidents
 ---
