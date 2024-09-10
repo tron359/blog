@@ -1,5 +1,5 @@
 ---
-Title: SIEM, Sentinel, Azure
+title: SIEM, Sentinel, Azure
 ---
 Spun up an Azure VM to use as a honeypot for some SIEM practice. 
 
